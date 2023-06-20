@@ -1,9 +1,19 @@
  .header {
-        background-color: #333;
+        background-color:#9e8787;
         color: #fff;
         padding: 20px;
-        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
       }
+   .header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1rem;
+    gap: 1rem;
+   }   
+   .header-info li {
+    display: inline-block;
+    list-style: none;
+   }

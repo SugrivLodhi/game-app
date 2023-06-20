@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <div className='header'>
             <img src="	https://www.tecmantras.com/imgs/logo.png" alt ="logo" height="48px" />
-            <div>
+            <div className='header-info'>
              {headerConfig.map((v) =>(<li>{v.value}</li>))}
             </div>
         </div>

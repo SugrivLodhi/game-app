@@ -18,11 +18,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    :hover{
-       cursor: pointer; 
-    }
-
+    background-color: blue;
+    cursor: pointer;
+   
 }
+ .box.red{
+    background-color: red;
+  }
+  .box.yellow {
+    background-color: yellow;
+  }
+  .box.disable{
+    pointer-events: none;
+    background-color: #f2f2f2;
+}
+
 .btnWrapper{
     display: flex;
     justify-content: center;

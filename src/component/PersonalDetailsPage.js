@@ -21,6 +21,7 @@ const PersonalDetailsPage = () => {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
+    console.log("v",value)
     dispatch(updateField({ field: name, value }));
   };
 
