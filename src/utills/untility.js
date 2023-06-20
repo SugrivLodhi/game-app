@@ -10,7 +10,7 @@ export const validateName =(value)=> {
       return "Name should be at least two Character";
     }
   
-    return null;
+    return false
   }
   
 export const validateEmail = (value)=> {
@@ -23,7 +23,7 @@ export const validateEmail = (value)=> {
       return "Invalid Email Id"
     }
   
-    return null
+    return false
   }
   
   export const validateMobileNumber =(value)=> {
@@ -39,13 +39,29 @@ export const validateEmail = (value)=> {
       return "mobile number should be numeric value";
     }
   
-    return null;
+    return false
   }
   
   export const validatePhoto = (file)=> {
     if (!file) {
       return "No file selected.";
     }
-    return null;
+    return false;
   }
   
+  export const validateNumber =(input)=> {
+    const numberPattern = /^[0-9]+$/;
+    const test = numberPattern.test(input);
+    if(!test){
+      return "Please Enter only number"
+    }
+    return false
+  }
+  export const numberOfArr = (input)=> {
+     if(!input){
+      return
+     }
+    const numberOfBox =parseInt(input,10)
+     const newArray = new Array(numberOfBox*numberOfBox).fill({value:`box${input}*${input}`});
+    return newArray;
+  }

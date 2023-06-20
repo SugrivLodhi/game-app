@@ -1,0 +1,33 @@
+.container {
+    background-color: rgba(59, 130, 246, 0.5);
+    padding: 1.5rem;
+}
+
+.box-container{
+    max-width: 30rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 1.5rem;
+}
+.box-container .box {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    :hover{
+       cursor: pointer; 
+    }
+
+}
+.btnWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
