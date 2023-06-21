@@ -9,13 +9,13 @@ import {
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<PersonalDetailsPage/>}/>
-      <Route path="/startGame" element={<GamePage/>} />
-      <Route path="/review-detail" element={<ReviewDetails/>} />
-    </Routes>
-  </BrowserRouter>
-     
+      <Routes>
+        <Route path="/" element={<PersonalDetailsPage />} />
+        <Route path="/startGame" element={<GamePage />} />
+        <Route path="/review-detail" element={<ReviewDetails />} />
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 

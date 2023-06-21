@@ -1,0 +1,16 @@
+.container_info {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    gap: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.container_info img {
+    margin: auto;
+    border-radius: 50%;
+    
+}
+.container_info p {
+    color: black;
+}

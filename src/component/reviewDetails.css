@@ -1,6 +1,12 @@
-.review_details{
+.review_details {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 1px solid rgb(75, 73, 73);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #7e7676;
+    min-width: 30rem;
+    margin: auto;
 }

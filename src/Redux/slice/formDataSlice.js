@@ -15,8 +15,7 @@ const formDataSlice = createSlice({
       const { field, value } = action.payload;
       state[field] = value;
     },
-    resetForm: (state) => initialState,
   },
 });
-export const { updateField, resetForm } = formDataSlice.actions;
+export const { updateField } = formDataSlice.actions;
 export default formDataSlice.reducer;
